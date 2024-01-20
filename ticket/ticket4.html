@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'><link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"></script>
+    <title>BINGO</title>
+  </head>
+  <body>
+    <header>
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAASlJREFUaEPt2NENwjAMBNDrJrAJbAKbwCTAJDAKo0AQlRBqoRef61Qy32m4d45KaYeFf7qF50cCoieYE8gJGBvII2Qs0Hx5TuBHhSsAd3PFfzbwmsAGwBXA8fn9B0+EB6AP3+d2RagB3+F7xNrrOCkBY+G3AG5ex0gFCAlfSlEAwsIrAKHhrYDw8BZAE+FrAc2ErwE0FZ4FjIVX3+KpO+PUxXOFZ0ud/DuwA3BSVz2y39RSX5czi+dCMJkoQAEPIcoz/8X7sXls+pT2vUlTiBpAU5OoBTSDsACaQFgB4QgFIBShAoQhlIBfiPK/2OUdkRowhNgDOHs9hngAPhGu4dlnIbbERb9aZLHV672OUHUg9sIEsI2p1+cE1I2y++UE2MbU63MC6kbZ/R4QETsxltkWOQAAAABJRU5ErkJggg==" onclick="turnBack()"/>
+      <h1 style="color: #4D4D4D;">4</h1>
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAuVJREFUaEPtWUtuVEEMrJwBDgAbThHE7wQghcAOxEGAgyBgFT4SnCAJCE7BBtjDGWAqekaNaX/eGzczI6WlZDSafm2Xq+zu9tvDjo+9Hfcf5wA2zeBoBk4B3BgJchSASwDoPD9H2TiLy4jFHwB43kR9hI0/y1cvzqhfV5KptvHX8lWLUyqMunaexr5NFvnJv48rab2oyosKAFoyGd8EzMt1wVQAeALgccZrYw7BPFyx92HJGhUAaLetOkv84DNPV/8YjFmjCoCAoJw0G5cnjwiSOXLNyBXJF5mfAlIJQAxqSfVsEEwP7GwQIwBoSXk2LOkxH1I7+CgAraQiXRMEZUdG2pHKiZEAUhpu8qO3j5AFtzptCwCrkoVS2iYABMEqxeNIO1wWtg0AHdfnKZeFUQBuA7gP4OYUymMArwC8TySGZoE7tbk3VAO4AuAZgH3D0c8AHgH4EgDRLJgyqgbwyXFefCaIqwEAvRmaMqoEQNm8S0iEU+4EctIy+i8AXgO4mwTwNpibzoNKBn4AuJAE8BPARWcud+evze9mInsAuAAXksFKILernu1KAFz/lzLS9dUDkK4Ek6E3AA6SDHDu4QwGFuUAzybtAYu3Ju8uW5nE+ppKu7T/z/AY0KUsczocVUZN2x6AdCVowlK1ken8M9mPLhttJaCf4fF2AkM53QNwa/p+AuAoeZTQFYhLmAUkKqM6D8LjbTKJvWm6eJj65yIRgF40siwswdI7TrvlOwJAJ3REuBcQhLcnLHG+Z8uNfoYBzumx4B5xF3rf66uGbGcYoD+97lsVE1ZfNVO2wxyQYFpG1moLGldI2kwXiywDIiV5aaFVQq0yYtm82Fhjy+rhCCACYMeZEZQOtBwIpbXoNYLTkReDcxho5WS1BRfm79ljYcWZexaKnInYiJ5vWdtoe93TsweCEmPerPW2ZomELKdE4/ydLXT5rl8xfZ/KcpYhd14lgBKH5i5yDmBuxKrn7zwDvwHFMJkx1w7YFgAAAABJRU5ErkJggg==" onclick="resetPage()"/>
+    </header>
+    <main>
+      <div></div>
+      <div>
+        <button id="2" onclick="click2()">12</button>
+      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div>
+        <button id="8" onclick="click8()">50</button>
+      </div>
+      <div>
+        <button id="10" onclick="click10()">62</button>
+      </div>
+      <div>
+        <button id="12" onclick="click12()">70</button>
+      </div>
+      <div>
+        <button id="14" onclick="click14()">83</button>
+      </div>
+      <div></div>
+      <div></div>
+      <div>
+        <button id="4" onclick="click4()">23</button>
+      </div>
+      <div>
+        <button id="6" onclick="click6()">38</button>
+      </div>
+      <div>
+        <button id="7" onclick="click7()">48</button>
+      </div>
+      <div></div>
+      <div>
+        <button id="11" onclick="click11()">63</button>
+      </div>
+      <div></div>
+      <div>
+        <button id="15" onclick="click15()">88</button>
+      </div>
+      <div>
+        <button id="1" onclick="click1()">4</button>
+      </div>
+      <div>
+        <button id="3" onclick="click3()">14</button>
+      </div>
+      <div>
+        <button id="5" onclick="click5()">24</button>
+      </div>
+      <div></div>
+      <div></div>
+      <div>
+        <button id="9" onclick="click9()">56</button>
+      </div>
+      <div></div>
+      <div>
+        <button id="13" onclick="click13()">74</button>
+      </div>
+      <div></div>
+    </main>
+  </body>
+</html>
